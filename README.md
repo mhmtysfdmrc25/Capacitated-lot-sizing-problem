@@ -143,15 +143,4 @@ Each instance `.txt` file uses the layout below:
 - **Empty `averages` sheet**: ensure filenames match the regex `X(\d{3})` if you want group averages.
 - **Parser errors**: verify that you have exactly `n_prod * n_per` demand values and exactly `n_prod` lines of product parameters.
 
----
 
-## 📄 License
-
-If you plan to publish this code publicly, add a license (e.g., MIT) here.
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [Gurobi Optimizer](https://www.gurobi.com/).
-- Thanks to the transportation reformulation literature for modeling inspiration.
